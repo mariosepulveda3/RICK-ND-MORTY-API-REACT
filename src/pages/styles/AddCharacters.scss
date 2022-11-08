@@ -1,0 +1,33 @@
+.form {
+    margin: 100px;
+    padding-inline: 200px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    label {
+        padding-block: 10px;
+
+    }
+
+    input {
+        margin-left: 20px;
+        padding-inline: 80px;
+        border-color: rgba(17, 255, 0, 0.975);
+    }
+
+    .select {
+        margin-left: -50px;
+    }
+
+    button {
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        width: 100px;
+        background-color: rgba(128, 255, 0, 0.66);
+        border-color: whitesmoke;
+        cursor: pointer;
+    }
+}

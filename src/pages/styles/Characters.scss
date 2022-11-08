@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.characters {
+  padding: 20px
+}
+
+.card {
+  background-color: rgb(183, 237, 58);
+  border: 3px solid rgba(3, 6, 2, 0.734);
+  padding-inline: 10px;
+  width: 200px;
+  height: 265px;
+  &:hover {
+    transform: scale(1.01);
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .img-container {
+    width: 100%;
+    height: 200px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  cursor: pointer;
+}
